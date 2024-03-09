@@ -5,3 +5,8 @@ export interface PeoplePostRequest {
     id:  number;
     detail: string;
 }
+
+export interface objectPostRepost {
+    m_id: number;
+    p_id: number;
+}
